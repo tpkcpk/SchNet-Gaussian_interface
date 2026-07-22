@@ -21,7 +21,9 @@ Open gausch.py and modify the pref parameters (such as model paths, CPU thread l
 Execute Gaussian 16 as usual:
 g16 input.gjf output.log
 
+
 Reference:
+
 P. K. Tsou, H. T. Huynh, H. T. Phan, J. L. Kuo, Phys. Chem. Chem. Phys., 2023, 25, 3332. A self-adapting firstprinciples
 exploration on the dissociation mechanism in sodiated aldohexose pyranoses assisted with neural
 network potentials.
