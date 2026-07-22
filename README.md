@@ -14,12 +14,17 @@ In your Gaussian input file, specify the #external keyword pointing to the launc
 Edit gausch.sh to ensure it correctly sources the Python environment containing the required dependencies (PyTorch, ASE, SchNetPack, etc.):
 source ~/script/python_env.sh
 
-Reference:
-
-
-5. Adjust Preferences in gausch.py
+4. Adjust Preferences in gausch.py
 Open gausch.py and modify the pref parameters (such as model paths, CPU thread limits, or unit conversions) according to your specific setup.
 
-6. Run the Gaussian Calculation
+5. Run the Gaussian Calculation
 Execute Gaussian 16 as usual:
 g16 input.gjf output.log
+
+Reference:
+P. K. Tsou, H. T. Huynh, H. T. Phan, J. L. Kuo, Phys. Chem. Chem. Phys., 2023, 25, 3332. A self-adapting firstprinciples
+exploration on the dissociation mechanism in sodiated aldohexose pyranoses assisted with neural
+network potentials.
+
+H. T. Phan, P. K. Tsou, P. J. Hsu and J. L. Kuo, Phys. Chem. Chem. Phys., 2023, 25, 5817. A first-principles
+exploration of the conformational space of sodiated pyranose assisted by neural network potentials.
