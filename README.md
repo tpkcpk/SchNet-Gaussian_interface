@@ -14,9 +14,12 @@ In your Gaussian input file, specify the #external keyword pointing to the launc
 Edit gausch.sh to ensure it correctly sources the Python environment containing the required dependencies (PyTorch, ASE, SchNetPack, etc.):
 source ~/script/python_env.sh
 
-4. Adjust Preferences in gausch.py
+Reference:
+
+
+5. Adjust Preferences in gausch.py
 Open gausch.py and modify the pref parameters (such as model paths, CPU thread limits, or unit conversions) according to your specific setup.
 
-5. Run the Gaussian Calculation
+6. Run the Gaussian Calculation
 Execute Gaussian 16 as usual:
 g16 input.gjf output.log
