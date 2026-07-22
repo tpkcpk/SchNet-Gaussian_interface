@@ -8,7 +8,7 @@ Place your trained SchNet NNP model file (.pt or best_model) inside your working
 In your Gaussian input file, specify the #external keyword pointing to the launcher script. Note that opt=nomicro is required and must not be omitted when running geometry optimizations:
 #external='bash gausch.sh' opt=nomicro
 
-Note: You may add other standard Gaussian keywords (e.g., freq, nosymm, or charge/multiplicity) depending on your calculation needs.
+    Note: You may add other standard Gaussian keywords (e.g., freq, nosymm, or charge/multiplicity) depending on your calculation needs.
 
 3. Configure Environment in gausch.sh
 Edit gausch.sh to ensure it correctly sources the Python environment containing the required dependencies (PyTorch, ASE, SchNetPack, etc.):
