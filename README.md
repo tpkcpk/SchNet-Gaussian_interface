@@ -1,4 +1,4 @@
-# SchNet–Gaussian 16 Interface
+## Gaussian External Interface for SchNet
 
 A lightweight interface that enables **SchNet Neural Network Potentials (NNPs)** to be used as an external energy and force calculator within **Gaussian 16**.
 
